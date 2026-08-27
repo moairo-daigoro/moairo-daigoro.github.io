@@ -1,55 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Daigoro SNS Manager</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Daigoro SNS Manager</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Privacy Policy</h1>
+<div class="page">
 
-  <p>Last updated: August 26, 2026</p>
+<header class="site-header">
+<h1>Privacy Policy — Daigoro SNS Manager</h1>
+</header>
 
-  <h2>1. About this service</h2>
-  <p>
-    Daigoro SNS Manager is an internal social media management tool
-    operated by moairo Inc. for managing the company's official
-    social media accounts.
-  </p>
+<p class="meta">Last updated: 2026-08-27</p>
 
-  <h2>2. Information handled</h2>
-  <p>
-    The service may process information necessary for social media
-    management, including account information provided by connected
-    platforms, videos, captions, and publishing information.
-  </p>
+<p>This Privacy Policy describes how Daigoro SNS Manager ("the Service"), operated by moairo Inc. ("the Company"), handles information in connection with its use of TikTok's Login Kit and Content Posting API. The Service is an internal tool used solely to operate the Company's own official social media accounts and is not offered to the public.</p>
 
-  <h2>3. Purpose of use</h2>
-  <p>
-    Information is used only for authentication, content management,
-    publishing, and other functions necessary to operate the company's
-    official social media accounts.
-  </p>
+<h2>1. Information We Collect and Process</h2>
+<p>The Service processes: (a) video files and basic file information (such as file size) needed to transfer a video to TikTok; (b) authentication tokens issued by TikTok after an authorized staff member completes TikTok's own login and consent flow; (c) a basic account identifier returned by TikTok (open_id) to confirm that actions are being performed on the correct, Company-owned account.</p>
 
-  <h2>4. Data sharing</h2>
-  <p>
-    Information handled by this service is not sold to third parties.
-    Data is shared with connected social media platforms only as
-    necessary to provide the requested functionality.
-  </p>
+<h2>2. Information Obtained from TikTok</h2>
+<p>When an authorized staff member connects the Service to the Company's TikTok account via TikTok Login Kit, the Service requests the following scopes: user.info.basic (to identify the connected account) and video.upload (to deliver video files to that account's inbox). The Service does not request any other information from TikTok, such as followers, existing videos, or analytics.</p>
 
-  <h2>5. Security</h2>
-  <p>
-    Reasonable security measures are used to protect authentication
-    credentials and other information handled by the service.
-  </p>
+<h2>3. Purpose of Use</h2>
+<p>The information above is used exclusively to operate the Company's own official TikTok account: preparing content and sending it to the Company's own TikTok inbox for review prior to publishing. No information is used for advertising, profiling, or any purpose unrelated to this internal operational use.</p>
 
-  <h2>6. Changes to this policy</h2>
-  <p>
-    This Privacy Policy may be updated when necessary to reflect
-    changes to the service or applicable requirements.
-  </p>
+<h2>4. Handling of Video and Other Content</h2>
+<p>Video files are stored locally on the Company's own equipment before being sent to TikTok. Files sent via the Content Posting API (video.upload) are delivered only to the inbox/draft area of the Company's own, already-authorized TikTok account. The Service does not publish this content automatically; publishing is always performed manually by an authorized staff member within the TikTok app itself.</p>
 
-  <p><a href="index.html">Back to Home</a></p>
+<h2>5. Third-Party Disclosure</h2>
+<p>The Company does not sell, rent, or otherwise disclose the information described in this policy to any third party, except as necessary to communicate with TikTok's own servers as part of the API calls described above, or as required by law.</p>
+
+<h2>6. Data Sharing with External Services</h2>
+<p>Beyond the direct communication with TikTok necessary to deliver video content as described above, the Service does not share data with any other external service or platform.</p>
+
+<h2>7. Management of Credentials and Tokens</h2>
+<p>Authentication credentials (Client Key, Client Secret) and access/refresh tokens issued by TikTok are stored exclusively in the macOS Keychain on the Company's own equipment. They are never stored in plain text files, source code, version control systems, or any location outside the Keychain, and are never displayed in logs or shared with any party.</p>
+
+<h2>8. Retention / Deletion</h2>
+<p>Tokens are retained only as long as necessary to operate the Service and are replaced automatically when TikTok issues a refreshed token. An authorized staff member may revoke the Service's access at any time via TikTok's own account settings, or by removing the corresponding credentials from the Keychain.</p>
+
+<h2>9. Security</h2>
+<p>Access to the Service and the equipment on which it runs is limited to authorized Company personnel. Credentials are managed using the operating system's secure credential storage (Keychain) rather than plain configuration files.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>The Company may update this Privacy Policy to reflect changes in the Service or applicable requirements. The current version is always available at this URL.</p>
+
+<footer class="site-footer">
+<a href="index.html">Back to Home</a>
+<a href="terms.html">Terms of Service</a>
+</footer>
+
+</div>
 </body>
 </html>
